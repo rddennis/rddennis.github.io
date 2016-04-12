@@ -1,0 +1,21 @@
+.navbar.navbar-inverse.navbar-fixed-top {
+	background-color: rgb(100,180,245);
+	color: #F7FAFE;
+	margin-left: 0;
+	border: none;
+}
+
+.jumbotron {
+	background-color: #FFFFFF;
+	background-size: cover;
+	padding: 155px 0;
+	color: rgb(100,180,245);
+	margin: 0px;
+	text-align: center;
+}
+
+#about {
+	background-color: rgb(100,180,245);
+	padding: 155px 0;
+	color: #FFFFFF;
+}
