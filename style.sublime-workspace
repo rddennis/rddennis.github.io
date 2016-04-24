@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"th",
+				"th	Tag"
+			],
+			[
+				"td",
+				"td	Tag"
+			],
+			[
+				"dog",
+				"dog_fields"
+			],
+			[
+				"t",
+				"title	Tag"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"comput",
+				"computer_selection"
+			],
+			[
+				"computer",
+				"computer_selection"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"Roc",
+				"RockPaperScissors"
+			],
+			[
+				"compu",
+				"computer_move"
+			],
+			[
+				"human",
+				"human_move"
+			],
+			[
+				"comp",
+				"computer_selection"
+			],
+			[
+				"hum",
+				"human_selection"
+			],
+			[
+				"questi",
+				"question_topics"
+			],
+			[
+				"cho",
+				"chosen_topic"
+			],
+			[
+				"user",
+				"user_answer"
+			],
+			[
+				"questions",
+				"questions_answers"
+			],
+			[
+				"qu",
+				"questions_answers"
+			],
+			[
+				"scoe",
+				"score_add"
+			],
+			[
+				"score_",
+				"score_sub"
+			],
+			[
+				"grass",
+				"grass_color"
+			],
+			[
+				"number",
+				"numbers"
+			],
+			[
+				"numbers",
+				"numbers_under_six"
+			],
+			[
+				"sum",
+				"sum_numbers"
+			],
+			[
+				"gr",
+				"grass_color"
+			],
+			[
+				"president_",
+				"president_name"
+			],
+			[
+				"pre",
+				"president_name"
+			],
+			[
+				"cup",
+				"cup_amount"
+			],
+			[
+				"to",
+				"to_i"
+			],
+			[
+				"check",
+				"check_math"
+			],
+			[
+				"n",
+				"number"
+			],
+			[
+				"math",
+				"math_problem"
+			],
+			[
+				"name",
+				"name_length"
+			],
+			[
+				"last",
+				"last_name"
+			],
+			[
+				"first",
+				"first_name"
+			],
+			[
+				"numb",
+				"number2"
+			],
+			[
+				"divi",
+				"division_remainder"
+			],
+			[
+				"reverse",
+				"reverse_cap_length"
+			],
+			[
+				"height",
+				"height_cm"
+			],
+			[
+				"con",
+				"convert_lbs_to_kg"
+			],
+			[
+				"weight",
+				"weight_lbs"
+			],
+			[
+				"he",
+				"height_in"
+			],
+			[
+				"lbs",
+				"lbs_to_kg"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"F",
+				"F7FAFE"
+			],
+			[
+				"margi",
+				"margin-right"
+			],
+			[
+				"si",
+				"background-size"
+			],
+			[
+				"pos",
+				"background-position"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"backgroup",
+				"background-repeat"
+			],
+			[
+				"background",
+				"background-image"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"ali",
+				"align-self"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"sha",
+				"text-shadow"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"l",
+				"li	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 363,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/controllers/pages_controller.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/controllers/birds_controller.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/views/birds/index.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/views/birds/new.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rddennis.github.co/style.css",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/views/pages/index.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_bird/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/views/pages/reservations.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bird_daycare/app/views/birds/new.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bird_daycare/app/views/welcome/index.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bird_daycare/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds_re/config/routes.rb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/rails_practice/bed_and_birds/app/views/pages/our_birds.html.erb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/controllers/application_controller.rb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/views/pages/reservations.html.erb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/views/pages/index.html.erb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/views/layouts/application.html.erb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/controllers/pages_controller.rb",
+		"/C/Users/rones_000/desktop/TTS/rails_practice/bed_and_birds/app/views/pages/our_birds.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/views/pages/reservations.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/views/pages/our_birds.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/controllers/pages_controller.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/views/layouts/application.html.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/bed_and_birds/Gemfile",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/views/pages/reservations.html.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/controllers/pages_controller.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/homework/bed_and_birds/Gemfile",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/homework/bed_and_birds/app/helpers/pages_helper.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/homework/bed_and_birds/config/routes.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/db/migrate/20160421135737_create_dogs.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/config/routes.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/app/views/dogs/index.html.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/app/controllers/dogs_controller.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/app/views/dogs/new.html.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/Gemfile",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/rock_paper_scissors/views/result.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/rock_paper_scissors/helpers/rps_helpers.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/rock_paper_scissors/views/form.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/rock_paper_scissors/rps2.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/app/views/daycare/index.html.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/doggie_daycare/app/views/daycare/about.html.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rails_practice/greeting/config/routes.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/grounded/views/parent_response.erb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/grounded/app.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/rps.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/rps.rb/Gemfile",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/grounded/views/form.erb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/grounded/Gemfile",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/grounded/views/hello.erb",
+		"/C/Users/rones_000/Desktop/TTS/rubykoans/koans/about_asserts.rb",
+		"/C/Users/rones_000/Desktop/TTS/rubykoans/koans/about_nil.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/to_do_list.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/trivia.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/trivia2.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/spec/stringcalculator_spec.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/lib/stringcalculator.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/stop_at_seven.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/fizzbuzz.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/print_to_100.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/mojo.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/classpractice.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/vehicle.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/honk.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/CodeCorrection.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/homework/Hello.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/Homework 4-17/Hello.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/namerequest.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/math.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/math2.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/numberloops.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/favoritecolor.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/barhopping.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/copycat.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/madlibs.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/string_arguments.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/lets-do-math.rb",
+		"/C/Users/rones_000/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/methods-branches.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/lets-do-math.rb",
+		"/C/Users/rones_000/Desktop/TTS/FrontEnd/Good-Coffee/index.html",
+		"/C/Users/rones_000/Desktop/TTS/FrontEnd/Good-Coffee/style.css",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/lets-do-math",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/practice.rb",
+		"/C/Users/rones_000/Desktop/TTS/tts-rubyprojects/imperial_to_metric.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/activity_tracker.rb",
+		"/C/Users/rones_000/desktop/TTS/tts-rubyprojects/imperial_to_metric.rb",
+		"/C/Users/rones_000/Desktop/Programs - Ruby/Testing.rb",
+		"/C/Users/rones_000/Desktop/Programs - Ruby/Loops.rb",
+		"/C/Users/rones_000/Desktop/Programs - Ruby/calc.rb",
+		"/C/Users/rones_000/desktop/TTS/rddennis.github.co/style.css",
+		"/C/Users/rones_000/Desktop/TTS/FrontEnd/about.html",
+		"/C/Users/rones_000/desktop/TTS/rddennis.github.co/index.html",
+		"/C/Users/rones_000/desktop/TTS/rddennis.github.co/README.md",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Good-Coffee/index.html",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Good-Coffee/style.css",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Good-Coffee/coffee-shop-393954_640.jpg",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Good-Coffee/coffee-206142_640.jpg",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/about.html",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Intro-CSS/style.css",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/Intro-CSS/index.html",
+		"/C/Users/rones_000/desktop/TTS/FrontEnd/hello.html",
+		"/C/Users/rones_000/desktop/Programs - Ruby/calc.rb"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 363,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "style.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

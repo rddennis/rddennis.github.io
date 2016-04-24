@@ -1,21 +1,42 @@
 .navbar.navbar-inverse.navbar-fixed-top {
-	background-color: rgb(100,180,245);
-	color: #F7FAFE;
+	background-color: rgb(0,112,192);
 	margin-left: 0;
 	border: none;
+  height: 96px;
+}
+
+.navbar-brand {
+ padding: 0 0;
+}
+
+.nav.navbar-nav.navbar-right {
+  padding-top: 20px;
 }
 
 .jumbotron {
 	background-color: #FFFFFF;
 	background-size: cover;
 	padding: 155px 0;
-	color: rgb(100,180,245);
+	color: rgb(0,112,192);
 	margin: 0px;
 	text-align: center;
 }
 
+.jumbotron img {
+  max-width: 50%;
+}
+
 #about {
-	background-color: rgb(100,180,245);
-	padding: 155px 0;
+	background-color: rgb(0,112,192);
 	color: #FFFFFF;
+  font-size: 20px;
+  font-style: italic;
+  min-height: 550px;
+  padding-top: 200px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+#about strong {
+  font-style: normal;
 }
