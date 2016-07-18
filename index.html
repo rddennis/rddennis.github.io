@@ -3,7 +3,9 @@
 <head>
 	<title>Ronesha D. Dennis // Web Developer</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
@@ -20,36 +22,86 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img src="images/logo/logo_sm.gif" alt="Ronesha D. Dennis logo" class="img_responsive"></a>
+      <a class="navbar-brand" href="#">Ronesha D. Dennis</a>
     </div>
 
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li class = "current"><a href="#about">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<!-- End of navbar -->
 
-<!-- Introductory Div -->
-<div class="jumbotron">
-  <div class="container-fluid">
-  	<img src="images/ronesha.jpeg" alt="Web Developer Ronesha D. Dennis" class="img-circle img-responsive center-block">
-	<h1 id="title">Ronesha D. Dennis</h1>
-	<h2> Web Developer and Non-Profit Programming Professional </h2>
+<div class="container-fluid" id= "all_contents">
+  <!-- Introductory/About Me Div -->
+   <div class="container-fluid" id= "about">
+    <div class="row">
+    <div class="image-container">
+      <div class="col-sm-3" id="main_img">
+        <img src="images/ronesha.jpeg" alt="Web Developer Ronesha D. Dennis" class="img-circle img-responsive center-block">
+       </div> <!-- Left Section with picture -->
+       </div> <!-- Closes image container -->
+     <div class="col-sm-9">
+      <div>
+      	<h1>Ronesha D. Dennis</h1>
+      	<h2>Web Developer and Non-Profit Programming Professional</h2>
+      </div> <!-- Title Div -->
+      <div id = "about_me">
+        <p><strong>Ronesha D. Dennis</strong> is a graduate of Howard University's John H. Johnson School of Communications. She holds a degree in Journalism with a minor in Computer Science. Shortly after graduating, Ronesha discovered that being a journalist would not fulfill her need to help others, and instead, spent five years working at The National Campaign to Prevent Teen and Unplanned Pregnancy, with the latter half of her time at the nonprofit spent developing relationships with respected organizations in the African-American community. Though Ronesha felt her work was purposeful, her passion for programming and web development, which had been an interest since well before entering college, could not be satiated. She completed Tech Talent South's Web Development Immersive bootcamp in May 2016, and is currently looking for projcts to expand her technological skills.</p>
+      </div><!-- Info Div -->
+     </div> <!-- Right section with about me -->
+    </div> <!-- Close row -->
+  </div> <!-- close container -->
+
+  <div id= "scroll_me">
+    <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
+    <p class="muted">Scroll down</p>
   </div>
+
+  <!-- Projects -->
+  <div class="container-fluid web-content" id="portfolio">
+      <h2>Web Applications</h2>
+      <h4>Built with Ruby on Rails</h4>
+      <ul class = "img-list">
+        <li>
+          <a href="http://atlbusfinder.herokuapp.com" target="_blank"><img src="images/atlbusfinder.png" alt="Atlanta Bus Finder" class="img-responsive"><span class="text-content"><span>Atlanta Bus Finder</span></span></a>
+        </li>
+        <li>
+          <a href="http://mytaskerapp.herokuapp.com" target="_blank"><img src="images/tasker.png" alt="Tasker" class="img-responsive"><span class="text-content"><span>Tasker</span></span></a>
+        </li>
+        <li>
+          <a href="http://atlbusfinder.herokuapp.com" target="_blank"><img src="images/placeholder.png" alt="Atlanta Bus Finder" class="img-responsive"><span class="text-content"><span>Atlanta Bus Finder</span></span></a>
+        </li>
+      </ul>
+    </div>
+
+  <div class="container-fluid web-content">
+    <h2>Front End Design</h2>
+    <h4>HTML, CSS, JQuery</h4>
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="images/placeholder.png">
+      </div>
+      <div class="col-sm-4">
+        <img src="images/placeholder.png">
+      </div>
+      <div class="col-sm-4">
+        <img src="images/placeholder.png">
+      </div>
+    </div>
+  </div>
+
 </div>
 
-<div class="container-fluid" id="about">
-  <div class="col-xs-12 text-center">
-	<p><strong>Ronesha D. Dennis</strong> is a graduate of Howard University's John H. Johnson School of Communications. She holds a degree in Journalism with a minor in Computer Science. Shortly after graduating, Ronesha discovered that being a journalist would not fulfill her need to help others, and instead, spent five years working at The National Campaign to Prevent Teen and Unplanned Pregnancy, with the latter half of her time at the nonprofit spent developing relationships with respected organizations in the African-American community. Though Ronesha felt her work was purposeful, her passion for programming and web development, which had been an interest since well before entering college, could not be satiated. She entered Tech Talent South's Web Development Immersive bootcamp in April 2016, and has been expanding her technological skills since.</p>
-  </div>
-  </div>
 
 <footer>
-	<a href="http://www.linkedin.com/in/roneshaddennis" target="_blank">LinkedIn</a> | <a href="http://www.twitter.com/roneshaddennis" target="_blank">Twitter</a>
+  <h2 id="contact">Contact me</h2>
+  <p>Ronesha_Dennis@yahoo.com</p>
+	<a href="http://www.linkedin.com/in/roneshaddennis" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a> | <a href="http://www.twitter.com/roneshaddennis" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
 </footer>
 </body>
 </html>

@@ -1,42 +1,120 @@
-.navbar.navbar-inverse.navbar-fixed-top {
-	background-color: rgb(0,112,192);
-	margin-left: 0;
-	border: none;
-  height: 96px;
+
+/* change color of background to white and font family for page */
+body {
+  background: #FFFFFF;
+  font-family: 'Courgette', cursive;
 }
 
-.navbar-brand {
- padding: 0 0;
+/* change color of navbar links */
+.navbar-inverse .navbar-brand {
+  color: white;
+  font-size: 2em;
 }
 
-.nav.navbar-nav.navbar-right {
-  padding-top: 20px;
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
+  color: blue;
 }
 
-.jumbotron {
-	background-color: #FFFFFF;
-	background-size: cover;
-	padding: 155px 0;
-	color: rgb(0,112,192);
-	margin: 0px;
-	text-align: center;
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
 }
 
-.jumbotron img {
-  max-width: 50%;
+/* adds padding to about section */
+#all_contents {
+  padding-top: 70px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+/* adds shadow to image */
+.img-circle {
+  box-shadow: 0px 10px 6px -6px black;
+  -moz-box-shadow: 0px 8px 6px -6px black;
+}
+
+/* Vertically aligns main image */
+.image_container {
+  padding: 1% 0;
+}
+
+#main_img {
+  padding: 2% 0;
 }
 
 #about {
-	background-color: rgb(0,112,192);
-	color: #FFFFFF;
-  font-size: 20px;
-  font-style: italic;
-  min-height: 550px;
-  padding-top: 180px;
-  padding-right: 100px;
-  padding-left: 100px;
+  margin-top: 50px;
+  min-height: 475px;
 }
 
-#about strong {
-  font-style: normal;
+/* Styling for about section */
+#about_me {
+  font-size: 18px;
+  text-align: justify;
+}
+
+#scroll_me {
+  text-align: center;
+  color: rgba(0,0,0,0.6);
+}
+
+.web-content {
+  padding-bottom: 50px;
+}
+
+/* Styling for Portfolio Links */
+
+ul.img-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+ul.img-list li {
+  display: inline-block;
+  height: 100%;
+  margin: 0 4em 4em 0;
+  position: relative;
+  }
+
+span.text-content {
+  padding-top: 6em;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 1000ms;
+  -moz-transition: opacity 1000ms;
+  -o-transition: opacity 1000ms;
+  transition: opacity 1000ms;
+}
+
+span.text-content:hover {
+  opacity: 1;
+}
+
+
+span.text-content span {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 27px;
+  line-height: 100%;
+}
+
+
+/* Footer */
+
+footer {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
