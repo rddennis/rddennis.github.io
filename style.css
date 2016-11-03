@@ -195,7 +195,7 @@ input, textarea {
   .one {
     width: 100%;
     display: block;
-    padding-bottom: 2em;
+    margin-top: -30%;
   }
 
   .one img {
