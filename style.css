@@ -236,3 +236,10 @@ input, textarea {
   }
 
 }
+
+@media (max-width: 768px) and (orientation: portrait) {
+  .one {
+    margin-top: 0;
+    padding-bottom: 2em;
+  }
+}
