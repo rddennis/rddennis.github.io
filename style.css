@@ -17,6 +17,7 @@ body, html {
 .about-me {
   min-height: 100vh;
   background-color: #000000;
+  padding: 0px;
 }
 
 h1 {
@@ -194,6 +195,7 @@ input, textarea {
   .one {
     width: 100%;
     display: block;
+    padding-bottom: 2em;
   }
 
   .one img {
@@ -203,7 +205,6 @@ input, textarea {
   .two {
     width: 100%;
     display: block;
-    padding-top: 1em;
   }
 
   .completed, .current, .collabs {
