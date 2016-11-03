@@ -203,7 +203,7 @@ input, textarea {
   .two {
     width: 100%;
     display: block;
-    margin-top: 1%;
+    margin-top: 3%;
   }
 
   .completed, .current, .collabs {
