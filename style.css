@@ -187,11 +187,13 @@ input, textarea {
   color: black;
 }
 
+
+
 @media (max-width: 768px) {
 
   .one {
-    width: 100vh;
-    text-align: center;
+    width: 100%;
+    display: block;
   }
 
   .one img {
@@ -200,16 +202,32 @@ input, textarea {
 
   .two {
     width: 100%;
+    display: block;
     margin-top: 0;
   }
 
   .completed, .current, .collabs {
     width: 100%;
+    display: block;
     padding-top: 1%;
   }
 
+  .about-me, .my-work, .web-one, .web-two, .web-three, .web-four, .contact {
+    min-width: 100%;
+    min-height: 100%;
+  }
+
+  #message {
+    height: 20%;
+    width: 60%;
+  }
+
+  #email {
+    width: 60%;
+  }
+
   .center-content {
-    padding: 20% 0;
+    padding: 40% 0;
   }
 
   .content {
