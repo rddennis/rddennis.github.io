@@ -5,103 +5,141 @@
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 </head>
 
 <body>
 
-<!-- Navigation Bar  -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Ronesha D. Dennis</a>
+<div class="container-fluid">
+  
+  <div class="about-me">
+    <div class="one">
+      <img src="images/ronesha2.jpg" style='height: 100vh; object-fit: contain;'>
+      </div>
+    <div class="two">
+      <div class="centered">
+        <h1>Ronesha D. Dennis</h1>
+        <h2>Web Developer</h2>
+        </div>
+      </div>
+    
+  </div>
+
+  <div class="my-work">
+  <div class="portfolio">
+    <div class="completed">
+      <h3>Completed Projects</h3>
+      <h4>Atlanta Bus Finder</h4>
+      <h4>Tasker</h4>
+      <h4>Good Coffee</h4>
     </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class = "current"><a href="#about">About Me</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-<!-- End of navbar -->
-
-<div class="container-fluid" id= "all_contents">
-  <!-- Introductory/About Me Div -->
-   <div class="container-fluid" id= "about">
-    <div class="row">
-    <div class="image-container">
-      <div class="col-sm-3" id="main_img">
-        <img src="images/ronesha.jpeg" alt="Web Developer Ronesha D. Dennis" class="img-circle img-responsive center-block">
-       </div> <!-- Left Section with picture -->
-       </div> <!-- Closes image container -->
-     <div class="col-sm-9">
-      <div>
-      	<h1>Ronesha D. Dennis</h1>
-      	<h2>Web Developer and Non-Profit Programming Professional</h2>
-      </div> <!-- Title Div -->
-      <div id = "about_me">
-        <p><strong>Ronesha D. Dennis</strong> is a graduate of Howard University's John H. Johnson School of Communications. She holds a degree in Journalism with a minor in Computer Science. Shortly after graduating, Ronesha discovered that being a journalist would not fulfill her need to help others, and instead, spent five years working at The National Campaign to Prevent Teen and Unplanned Pregnancy, with the latter half of her time at the nonprofit spent developing relationships with respected organizations in the African-American community. Though Ronesha felt her work was purposeful, her passion for programming and web development, which had been an interest since well before entering college, could not be satiated. She completed Tech Talent South's Web Development Immersive bootcamp in May 2016, and is currently looking for projcts to expand her technological skills.</p>
-      </div><!-- Info Div -->
-     </div> <!-- Right section with about me -->
-    </div> <!-- Close row -->
-  </div> <!-- close container -->
-
-<!--   <div id= "scroll_me">
-    <i class="fa fa-angle-double-down fa-lg" aria-hidden="true"></i>
-    <p class="muted">Scroll down</p>
-  </div> -->
-
-  <!-- Projects -->
-  <div class="container-fluid web-content" id="portfolio">
-      <h2>Web Applications</h2>
-      <h4>Built with Ruby on Rails</h4>
-      <ul class = "img-list">
-        <li>
-          <a href="http://atlbusfinder.herokuapp.com" target="_blank"><img src="images/atlbusfinder.png" alt="Atlanta Bus Finder" class="img-responsive"><span class="text-content"><span>Atlanta Bus Finder</span></span></a>
-        </li>
-        <li>
-          <a href="http://mytaskerapp.herokuapp.com" target="_blank"><img src="images/tasker.png" alt="Tasker" class="img-responsive"><span class="text-content"><span>Tasker</span></span></a>
-        </li>
-        <li>
-          <a href="#" target="_blank"><img src="images/placeholder.png" alt="Placeholder" class="img-responsive"><span class="text-content"><span>Placeholder</span></span></a>
-        </li>
-      </ul>
+    <div class="current">
+      <h3>Current Projects</h3>
+      <h4>Curls</h4>
+      <p>Curls** is a private client project.</p>
+      <h4>Safe Spaces</h4>
+      <p>See the work in progress on Github.</p>
     </div>
+    <div class="collabs">
+      <h3>Collaborations</h3>
+      <h4>StateLess</h4>
+    </div>
+    </div>
+    
+  </div>
 
-  <div class="container-fluid web-content">
-    <h2>Front End Design</h2>
-    <h4>HTML, CSS, JQuery</h4>
-    <ul class = "img-list">
-      <li>
-        <a href="http://rddennis.github.io/Good-Coffee" target="_blank"><img src="images/goodcoffee.png" alt="Good Coffee" class="img-responsive"><span class="text-content"><span>Good Coffee</span></span></a>
-      </li>
-      <li>
-        <a href="#" target="_blank"><img src="images/placeholder.png" alt="Placeholder" class="img-responsive"><span class="text-content"><span>Placeholder</span></span></a>
-      </li>
-      <li>
-        <a href="#" target="_blank"><img src="images/placeholder.png" alt="Placeholder" class="img-responsive"><span class="text-content"><span>Placeholder</span></span></a>
-      </li>
-    </ul>
+  <div class="web-one blackout">
+    <div class="center-content">
+      <div class="content">
+        <h2>StateLess</h2>
+        <h4><em>StateLess</em> is a web application that allows state and regional leaders to utilize SMS messaging to reach volunteers during political canvassing.</h4>
+        <h5>This project was completed in collaboration with fellow Code for Progress Fellows. <br /> 
+        My role included the creation of the user authentication system with the usage of Flask Security.</h5>
+        <h4><strong>
+          <img src='images/python.png' width="50vh" vertical-align="middle">
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          </strong>
+        </h4>
+        <h4><a href="https://github.com/CodeForProgress/sms-app" target="_blank"><button type="button">See the Code</button></a> 
+        <a href="http://www.stateless.cc" target="_blank"><button type="button">Visit the Website</button></a></h4>
+      </div> 
+    </div>
+  </div>
+
+  <div class="web-two blackout">
+    <div class="center-content">
+      <div class="content">
+        <h2>Atlanta Bus Finder</h2>
+        <h4><em>Atlanta Bus Finder</em> is a web application that allows MARTA bus riders to find their nearest bus stops.</h4>
+        <h4><strong>
+          <img src='images/ror.png' width="50vh" vertical-align="middle">
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle"></strong>
+        </h4>
+        <h4><a href="" target="_blank"><button type="button">Code Coming Soon!</button> </a>
+          <a href="http://atlbusfinder.herokuapp.com" target="_blank"><button type="button">Visit the Website</button></a></h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="web-three blackout">
+    <div class="center-content">
+      <div class="content">
+        <h2>Tasker</h2>
+        <h4><em>Tasker</em> is a web application that allows users to sign in via Facebook and create, update, and delete tasks from their personal task list.</h4>
+        <h4><strong>
+          <img src='images/ror.png' width="50vh" vertical-align="middle">
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle"></strong>
+        </h4>
+        <h4><a href="" target="_blank"><button type="button">Code Coming Soon!</button> </a>
+        <a href="http://mytaskerapp.herokuapp.com" target="_blank"><button type="button">Visit the Website</button></a>
+        </h4>
+      </div>  
+    </div>
+  </div>
+
+  <div class="web-four blackout">
+    <div class="center-content">
+      <div class="content">
+        <h2>Good Coffee</h2>
+        <h4><em>Good Coffee</em> is the landing page of a fictitious coffee shop that serves great coffee.</h4>
+        <h4><strong>
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle"></strong>
+        </h4>
+        <h4>
+          <a href="https://github.com/rddennis/Good-Coffee" target="_blank"><button>See the Code</button></a>
+          <a href="https://rddennis.github.io/Good-Coffee/" target="_blank"><button>Visit the Website</button></a></h4>    
+      </div>
+    </div>
+  </div>
+
+  <div class="contact">
+    <div class="center-content">
+    <div class="content">
+    <h2>Contact Me</h2>
+    <br>
+      <form action="https://formspree.io/ronesha_dennis@yahoo.com"
+        method="POST">
+        <label>Email Address</label><br>
+        <input type="email" name="_replyto" id="email">
+        <br><br>
+        <input type="hidden" name="_subject" value="New Email from rddennis.github.io">
+        <label>Message</label><br>
+        <textarea name="message" id="message"></textarea>
+        <br><br>
+        <button type="submit">Send</button>
+      <br><br>
+      </form>
+    </div>
+  </div>
   </div>
 
 </div>
-
-
-<footer>
-  <h2 id="contact">Contact me</h2>
-  <p>Ronesha_Dennis@yahoo.com</p>
-	<a href="http://www.linkedin.com/in/roneshaddennis" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a> | <a href="http://www.twitter.com/roneshaddennis" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a>
-</footer>
 </body>
 </html>

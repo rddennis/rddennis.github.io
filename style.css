@@ -1,120 +1,190 @@
 
 /* change color of background to white and font family for page */
-body {
-  background: #FFFFFF;
-  font-family: 'Courgette', cursive;
-}
-
-/* change color of navbar links */
-.navbar-inverse .navbar-brand {
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #000000;
   color: white;
-  font-size: 2em;
+  font-family: 'Handlee', cursive;
 }
 
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a:hover {
-  color: blue;
+.container-fluid {
+  padding: 0px;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.about-me {
+  min-height: 100vh;
+  background-color: #000000;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Great Vibes', cursive;
+  color: gold;
+}
+
+h2 {
+  font-size: 2.5em;
+  font-family: 'Handlee', cursive;
   color: white;
 }
 
-/* adds padding to about section */
-#all_contents {
-  padding-top: 70px;
-  padding-right: 70px;
-  padding-left: 70px;
+.one, .two {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-/* adds shadow to image */
-.img-circle {
-  box-shadow: 0px 10px 6px -6px black;
-  -moz-box-shadow: 0px 8px 6px -6px black;
+.one {
+  float: left;
+  clear: both;
 }
 
-/* Vertically aligns main image */
-.image_container {
-  padding: 1% 0;
-}
-
-#main_img {
-  padding: 2% 0;
-}
-
-#about {
-  margin-top: 50px;
-  min-height: 475px;
-}
-
-/* Styling for about section */
-#about_me {
-  font-size: 18px;
-  text-align: justify;
-}
-
-#scroll_me {
+.two {
+  width: 55%;
   text-align: center;
-  color: rgba(0,0,0,0.6);
+  padding: 15% 0;
 }
 
-.web-content {
-  padding-bottom: 50px;
+.centered {
+  padding: 7.5% 0;
+  text-align: center;
 }
 
-/* Styling for Portfolio Links */
+.my-work {
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  padding-top: 3%;
+  padding-left: 1%;
+}
 
-ul.img-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.portfolio {
+  padding: 10% 0 10% 0;
+  text-align: center;
+}
+
+.portfolio h3 {
+  text-align: center;
+  font-size: 3em;
+  color: gold;
+  font-family: 'Handlee', cursive;
+}
+
+.portfolio h4 {
+  font-size: 2em;
+  color: black;  
+}
+
+.portfolio h4 {
+  font-family: 'Handlee', cursive;
+  text-align: center;
+}
+ 
+.portfolio p {
+  color: black;
+}
+
+.completed, .current, .collabs {
+  display: inline-block;
+  clear: both;
+  width: 30%;
+  vertical-align: top;
+}
+
+.web-one, .web-two, .web-three, .web-four {
+  min-height: 100vh;
+  min-width: 100vh;
+  background-size: cover; 
+  background-repeat: no-repeat;
+}
+
+.web-one {
+  background-image: url('images/stateless.jpg'); 
+}
+
+.web-two {
+  background-image: url('images/atlbusapp.jpg'); 
+}
+
+.web-three {
+  background-image: url('images/taskerapp.jpg'); 
+}
+
+.web-four {
+  background-image: url('images/goodcoffee.jpg'); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+.center-content {
+  padding: 11% 0;
+
+}
+
+.content {
+  width: 80%;
+  height: 70%;
+  background-color: rgba(0,0,0,0.4);
+  padding: 5.5% 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.content h2 {
+  color: gold;
+}
+
+button {
+  padding: 1%;
+  color: gold;
+  background-color: transparent;
+  border: 0.5px solid gold;
+}
+
+.contact {
+  min-height: 60vh;
+  background-color: black;
+
+}
+
+#message {
+  height: 20vh;
+  width: 60vh;
+}
+
+#email, #subject {
+  width: 60vh;
+}
+
+input, textarea {
+  color: black;
+}
+
+@media (max-width: 768px) {
+
+  .one {
+    width: 100vh;
     text-align: center;
   }
 
-ul.img-list li {
-  display: inline-block;
-  height: 100%;
-  margin: 0 4em 4em 0;
-  position: relative;
+  .one img {
+    width: 100%;
   }
 
-span.text-content {
-  padding-top: 6em;
-  margin: 0 auto;
-  background: rgba(0,0,0,0.8);
-  border-radius: 5px;
-  color: white;
-  cursor: pointer;
-  height: 100%;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: opacity 1000ms;
-  -moz-transition: opacity 1000ms;
-  -o-transition: opacity 1000ms;
-  transition: opacity 1000ms;
-}
+  .two {
+    width: 100%;
+    margin-top: 0;
+  }
 
-span.text-content:hover {
-  opacity: 1;
-}
+  .completed, .current, .collabs {
+    width: 100%;
+    padding-top: 1%;
+  }
 
+  .center-content {
+    padding: 20% 0;
+  }
 
-span.text-content span {
-  text-align: center;
-  vertical-align: middle;
-  font-size: 27px;
-  line-height: 100%;
-}
+  .content {
+    padding: 10% 0;
+  }
 
-
-/* Footer */
-
-footer {
-  text-align: center;
-  background-color: black;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
