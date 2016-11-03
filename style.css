@@ -12,6 +12,8 @@ body, html {
   padding: 0px;
 }
 
+/* Updates about me section */
+
 .about-me {
   min-height: 100vh;
   background-color: #000000;
@@ -29,6 +31,7 @@ h2 {
   color: white;
 }
 
+/* One is the main image; Two is my name */
 .one, .two {
   display: inline-block;
   vertical-align: middle;
@@ -45,6 +48,7 @@ h2 {
   padding: 15% 0;
 }
 
+/*To center my name in div "two" */
 .centered {
   padding: 7.5% 0;
   text-align: center;
@@ -89,6 +93,22 @@ h2 {
   width: 30%;
   vertical-align: top;
 }
+
+.current a {
+  color: black;
+}
+
+.current a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+.current a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+/* Individual project sections */
 
 .web-one, .web-two, .web-three, .web-four {
   min-height: 100vh;
@@ -139,10 +159,19 @@ button {
   border: 0.5px solid gold;
 }
 
+/* Contact forms and info */
 .contact {
-  min-height: 60vh;
+  min-height: 100vh;
   background-color: black;
 
+}
+
+.contact .center-content {
+  padding: 5% 0;
+}
+
+.contact .content {
+  padding: 2.5% 0;
 }
 
 #message {
