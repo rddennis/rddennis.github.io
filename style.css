@@ -12,6 +12,17 @@ body, html {
   padding: 0px;
 }
 
+/* Updates loader image */
+#loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  background: url('images/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+}
+
 /* Updates about me section */
 
 .about-me {
@@ -33,20 +44,21 @@ h2 {
 }
 
 /* One is the main image; Two is my name */
-.one, .two {
+.header-image, .header-content {
   display: inline-block;
   vertical-align: middle;
 }
 
-.one {
-  float: left;
-  clear: both;
+.header-image {
+  width: 48%;
+  height: 100vh;
+  background: url('images/ronesha2.jpg') center;
+  background-size: cover;
 }
 
-.two {
-  width: 55%;
+.header-content {
+  width: 48%;
   text-align: center;
-  padding: 15% 0;
 }
 
 /*To center my name in div "two" */
@@ -55,44 +67,69 @@ h2 {
   text-align: center;
 }
 
-.my-work {
+#my-intro {
   min-height: 100vh;
+  width: 100vw;
   background-color: #FFFFFF;
-  padding-top: 3%;
-  padding-left: 1%;
+}
+
+#arrow {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+#arrow i {
+  margin: 0;
+  text-align: center;
+  color: white;
+  -webkit-animation-name: arrowMove;
+  -webkit-animation-duration: .5s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-name: arrowMove;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@-webkit-keyframes arrowMove {
+  from {margin-bottom: 1vh} 
+  to {margin-bottom: 3vh}
+}
+
+@keyframes arrowMove {
+  from {margin-bottom: 1vh} 
+  to {margin-bottom: 3vh}
+}
+
+
+#scroll-contact {
+  color: gold;
+  text-decoration: none;
 }
 
 .portfolio {
-  padding: 10% 0 10% 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 10%;
+  padding-right: 10%;
   text-align: center;
 }
 
-.portfolio h3 {
-  text-align: center;
-  font-size: 3em;
-  color: gold;
-  font-family: 'Handlee', cursive;
-}
 
 .portfolio h4 {
   font-size: 2em;
   color: black;  
-}
-
-.portfolio h4 {
   font-family: 'Handlee', cursive;
   text-align: center;
 }
  
 .portfolio p {
   color: black;
-}
-
-.completed, .current, .collabs {
-  display: inline-block;
-  clear: both;
-  width: 30%;
-  vertical-align: top;
 }
 
 .current a {
@@ -111,28 +148,68 @@ h2 {
 
 /* Individual project sections */
 
-.web-one, .web-two, .web-three, .web-four {
-  min-height: 100vh;
-  min-width: 100vh;
+.web {
+  display: none;
+  height: 100vh;
+  width: 100vw;
   background-size: cover; 
   background-repeat: no-repeat;
 }
 
-.web-one {
+#web-seven {
+  background-image: url('images/newamerica.png');
+  display: block;
+}
+
+#web-six {
+  background-image: url('images/wedding-vows.jpg');
+}
+
+#web-five {
+  background-image: url('images/millers.jpg');
+}
+
+#web-four {
   background-image: url('images/stateless.jpg'); 
 }
 
-.web-two {
+#web-three {
   background-image: url('images/atlbusapp.jpg'); 
 }
 
-.web-three {
+#web-two {
   background-image: url('images/taskerapp.jpg'); 
 }
 
-.web-four {
+#web-one {
   background-image: url('images/goodcoffee.jpg'); 
   background-color: rgba(0,0,0,0.4);
+}
+
+.left-arrow, .right-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: gold;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 40px;
+  border-radius: 5px;
+}
+
+.fa-angle-left, .fa-angle-right {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.left-arrow {
+  left: -2px;
+}
+
+.right-arrow {
+  right: -2px;
 }
 
 .center-content {
@@ -141,11 +218,16 @@ h2 {
 }
 
 .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 80%;
-  height: 70%;
+  height: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
   background-color: rgba(0,0,0,0.4);
-  padding: 5.5% 0;
-  margin: 0 auto;
+  border-radius: 5px;
   text-align: center;
 }
 
@@ -161,17 +243,17 @@ button {
 }
 
 /* Contact forms and info */
-.contact {
+#contact {
   min-height: 100vh;
   background-color: black;
 
 }
 
-.contact .center-content {
+#contact .center-content {
   padding: 5% 0;
 }
 
-.contact .content {
+#contact .content {
   padding: 2.5% 0;
 }
 
@@ -192,28 +274,39 @@ input, textarea {
 
 @media (max-width: 768px) {
 
-  .one {
+  .header-image {
     width: 100%;
     display: block;
     margin-top: -30%;
   }
 
-  .one img {
+  .header-image img {
     width: 100%;
   }
 
-  .two {
-    width: 100%;
-    display: block;
-  }
-
-  .completed, .current, .collabs {
+  .header-content {
     width: 100%;
     display: block;
-    padding-top: 1%;
   }
 
-  .about-me, .my-work, .web-one, .web-two, .web-three, .web-four, .contact {
+  .portfolio {
+    position: relative;
+    top: unset;
+    left: unset;
+    transform: unset;
+    padding-top: 3%;
+    padding-bottom: 3%;
+  }
+
+  #arrow {
+    display: none;
+  }
+
+  .left-arrow, .right-arrow {
+    display: none;
+  }
+
+  .about-me, .web, .contact {
     min-width: 100%;
     min-height: 100%;
   }
@@ -235,10 +328,14 @@ input, textarea {
     padding: 10% 0;
   }
 
+  .web {
+    display: block;
+  }
+
 }
 
 @media (max-width: 768px) and (orientation: landscape) {
-  .one {
+  .header-image {
     margin-top: 0;
     padding-bottom: 4em;
   }

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Ronesha D. Dennis // Web Developer</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
@@ -11,49 +12,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
 
 <div class="container-fluid">
+
+<div id="loader"></div>
   
   <div class="about-me col-sm-12">
-    <div class="one">
-      <img src="images/ronesha2.jpg" style='height: 100vh; object-fit: contain;'>
+    <div class="header-image">
       </div>
-    <div class="two">
-      <div class="centered">
+      <div class="header-content">
         <h1>Ronesha D. Dennis</h1>
         <h2>Web Developer</h2>
         </div>
+    <div id="arrow"><i class="fa fa-3x fa-angle-down" aria-hidden="true"></i></div>
+  </div>
+
+  <div class="col-sm-12" id="my-intro">
+    <div class="portfolio col-sm-12">
+      <div class="my-bio">
+        <h4>Hello, I'm Ronesha. I'm a graduate of Howard University with a bachelors degree in Communications and a minor in Computer Science. After graduating, I worked in public health for three years in administrative support and two years in programs manangement. In 2016, I decided to make a career change to web development, and I'm now a Full-Stack Web Developer, utilizing backend languages Ruby on Rails and Python. </h4> <br />
+
+        <h4>I've worked on several websites, taught the Scratch coding language to high schoolers in D.C., and recently taught a two-week summer camp on the Python coding language in support of Black Girls Code. I'm looking for opportunities to support a team and grow as a programmer. Please feel free to <span id="scroll-contact">contact me</span> for career opportunities or development services. </h4>
+
       </div>
-    
+    </div>
   </div>
 
-  <div class="my-work col-sm-12">
-  <div class="portfolio col-sm-12">
-    <div class="completed">
-      <h3>Completed Projects</h3>
-      <h4>Atlanta Bus Finder</h4>
-      <h4>Tasker</h4>
-      <h4>Good Coffee</h4>
+  <div class="web col-sm-12" id="web-seven" data-index='7'>
+    <div class="center-content">
+      <div class="content">
+        <h2>2016 Annual Report</h2>
+        <h4>The <em>2016 Annual Report</em> website was completed during an internship at New America. The interactive map website outlines the work the organization completed over the course of the year.</h4>
+        <h4><strong>
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle">
+          <img src='images/jquery.png' width="50vh" vertical-align="middle">
+          <img src='images/d3.png' width="55vh" vertical-align="middle">
+          </strong>
+        </h4>
+        <h4><a href="https://github.com/CodeForProgress/sms-app" target="_blank"><button type="button">See the Code</button></a> 
+        <a href="http://www.stateless.cc" target="_blank"><button type="button">Visit the Website</button></a></h4>
+      </div> 
     </div>
-    <div class="current">
-      <h3>Current Projects</h3>
-      <h4>Curls</h4>
-      <p>Curls** is a private client project.</p>
-      <h4>Safe Spaces</h4>
-      <p><a href="https://github.com/rddennis/safe-spaces" target="_blank">See the work in progress on Github.</a></p>
-    </div>
-    <div class="collabs">
-      <h3>Collaborations</h3>
-      <h4>StateLess</h4>
-    </div>
-    </div>
-    
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
+
   </div>
 
-  <div class="web-one col-sm-12">
+
+    <div class="web col-sm-12" id="web-six" data-index='6'>
+    <div class="center-content">
+      <div class="content">
+        <h2>Write My Wedding Vows</h2>
+        <h4><em>Write My Wedding Vows</em> is a website that allows clientele to purchase customized written vows, honor attendant speeches and parental speeches for weddings.</h4>
+        <h4><strong>
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle">
+          <img src='images/jquery.png' width="50vh" vertical-align="middle">
+          </strong>
+        </h4>
+        <h4><a href="https://github.com/rddennis/wedding-vows" target="_blank"><button type="button">See the Code</button></a> 
+        <a href="http://rddennis.github.io/wedding-vows" target="_blank"><button type="button">Visit the Website</button></a></h4>
+      </div> 
+    </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
+  </div>
+
+
+    <div class="web col-sm-12" id="web-five" data-index='5'>
+    <div class="center-content">
+      <div class="content">
+        <h2>New Orleans Appliance and Repairs</h2>
+        <h4><em>New Orleans Appliance and Repair</em> is a landing page introducing clientele to the services of a veteran appliance serviceman in the New Orleans Metropolitan area. 
+        <h4><strong>
+          <img src='images/html5.png' width="50vh" vertical-align="middle">
+          <img src='images/css3.png' width="50vh" vertical-align="middle">
+          </strong>
+        </h4>
+        <h4><a href="https://github.com/rddennis/appliances" target="_blank"><button type="button">See the Code</button></a> 
+        <a href="http://www.neworleansapplianceandrepairs.com" target="_blank"><button type="button">Visit the Website</button></a></h4>
+      </div> 
+    </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
+  </div>
+
+
+
+
+  <div class="web col-sm-12" id="web-four" data-index='4'>
     <div class="center-content">
       <div class="content">
         <h2>StateLess</h2>
@@ -69,9 +121,11 @@
         <a href="http://www.stateless.cc" target="_blank"><button type="button">Visit the Website</button></a></h4>
       </div> 
     </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
   </div>
 
-  <div class="web-two col-sm-12">
+  <div class="web col-sm-12" id="web-three" data-index='3'>
     <div class="center-content">
       <div class="content">
         <h2>Atlanta Bus Finder</h2>
@@ -85,9 +139,11 @@
           <a href="http://atlbusfinder.herokuapp.com" target="_blank"><button type="button">Visit the Website</button></a></h4>
       </div>
     </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
   </div>
 
-  <div class="web-three col-sm-12">
+  <div class="web col-sm-12" id="web-two" data-index='2'>
     <div class="center-content">
       <div class="content">
         <h2>Tasker</h2>
@@ -103,9 +159,11 @@
         </h4>
       </div>  
     </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
   </div>
 
-  <div class="web-four col-sm-12">
+  <div class="web col-sm-12" id="web-one" data-index='1'>
     <div class="center-content">
       <div class="content">
         <h2>Good Coffee</h2>
@@ -119,9 +177,11 @@
           <a href="https://rddennis.github.io/Good-Coffee/" target="_blank"><button>Visit the Website</button></a></h4>    
       </div>
     </div>
+    <div class="left-arrow"><i class="fa fa-3x fa-angle-left" aria-hidden="true"></i></div>
+    <div class="right-arrow"><i class="fa fa-3x fa-angle-right" aria-hidden="true"></i></div>
   </div>
 
-  <div class="contact col-sm-12">
+  <div class="col-sm-12" id="contact">
     <div class="center-content">
     <div class="content">
     <h2>Contact Me</h2>
