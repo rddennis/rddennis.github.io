@@ -147,7 +147,6 @@ h2 {
 }
 
 /* Individual project sections */
-
 .web {
   display: none;
   height: 100vh;
@@ -167,10 +166,11 @@ h2 {
 
 #web-five {
   background: url('images/millers.jpg') center;
+  background-size: 100vw;
 }
 
 #web-four {
-  background: url('images/stateless.jpg') center; 
+  background: url('images/stateless.jpg'); 
 }
 
 #web-three {
@@ -184,6 +184,8 @@ h2 {
 #web-one {
   background: url('images/goodcoffee.jpg') center; 
 }
+
+
 
 .left-arrow, .right-arrow {
   position: absolute;
