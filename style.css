@@ -157,33 +157,32 @@ h2 {
 }
 
 #web-seven {
-  background-image: url('images/newamerica.png') center;
+  background: url('images/newamerica.png') center;
   display: block;
 }
 
 #web-six {
-  background-image: url('images/wedding-vows.jpg') center;
+  background: url('images/wedding-vows.jpg') center;
 }
 
 #web-five {
-  background-image: url('images/millers.jpg') center;
+  background: url('images/millers.jpg') center;
 }
 
 #web-four {
-  background-image: url('images/stateless.jpg') center; 
+  background: url('images/stateless.jpg') center; 
 }
 
 #web-three {
-  background-image: url('images/atlbusapp.jpg') center; 
+  background: url('images/atlbusapp.jpg') center; 
 }
 
 #web-two {
-  background-image: url('images/taskerapp.jpg') center; 
+  background: url('images/taskerapp.jpg') center; 
 }
 
 #web-one {
-  background-image: url('images/goodcoffee.jpg') center; 
-  background-color: rgba(0,0,0,0.4);
+  background: url('images/goodcoffee.jpg') center; 
 }
 
 .left-arrow, .right-arrow {
